@@ -1,0 +1,154 @@
+body 
+{
+  background-image: url(Logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+ height: 680px;
+ 
+  
+
+}
+.nav1 {
+text-align: center;
+padding: 10px;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.nav1 a {padding: 18px;
+font-size:27px;
+color: rgb(231, 221, 221);
+text-decoration: none;
+
+}
+
+.name 
+{
+text-align: center;
+overflow: hidden;
+  float:center;
+}
+
+
+
+*{
+    box-sizing: border-box; 
+  } 
+  body  
+  { 
+    font-family: Verdana, sans-serif; 
+  } 
+    
+  .image-sliderfade  
+  { 
+    display: none; 
+  } 
+    
+  img  
+  { 
+    vertical-align: middle; 
+  } 
+    
+  /* Slideshow container */
+  .container  
+  { 
+    max-width: 1000px; 
+    position: relative; 
+    margin-left: 500px; 
+  } 
+    
+  /* Caption text */
+  .text  
+  { 
+    color: #f2f2f2; 
+    font-size: 15px; 
+    padding: 20px 15px; 
+    position: absolute; 
+    right: 10px; 
+    bottom: 10px; 
+    width: 40%; 
+    background: rgba(0, 0, 0, .7); 
+    text-align: left; 
+  } 
+    
+  /* The dots/bullets/indicators */
+  .dot  
+  { 
+    height: 15px; 
+    width: 15px; 
+    margin: 0 2px; 
+    background-color: transparent; 
+    border-color: #ddd; 
+    border-width: 5 px; 
+    border-style: solid; 
+    border-radius: 50%; 
+    display: inline-block; 
+    transition: border-color 0.6s ease; 
+  } 
+    
+  .active  
+  { 
+    border-color: #666; 
+  } 
+    
+  /* Animation */
+  .fade  
+  { 
+    -webkit-animation-name: fade-image; 
+    -webkit-animation-duration: 1.55s; 
+    animation-name: fade-image; 
+    animation-duration: 1.5s; 
+  } 
+    
+  @-webkit-keyframes fade-image 
+  { 
+    from {opacity: .4}  
+    to {opacity: 1} 
+  } 
+    
+  @keyframes fade-image 
+  { 
+    from {opacity: .4}  
+    to {opacity: 1} 
+  } 
+    
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px)  
+  { 
+    .text {font-size: 11px} 
+  } 
+
+
+
+.zara  {
+text-align: center;
+align-items: center;
+display: inline-block;
+clear: both;
+background-color: rgb(46, 41, 41);
+background-repeat: no-repeat;
+background-clip: padding-box;
+background-origin: content-box;
+
+}
+
+.zara figcaption
+{
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+}
+
+footer
+{
+  background-color: silver;
+  width: 1900px;
+  height: 500px;
+  padding-top: 200px;
+ background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: screen;
+
+}
